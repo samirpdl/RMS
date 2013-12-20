@@ -39,7 +39,9 @@
           <ul class="nav navbar-nav side-nav">
             <li><a href="<?= base_url();?>members/home"><i class="fa fa-dashboard"></i> Dashboard</a></li>
             <li><a href="<?= base_url();?>members/tables"><i class="fa fa-table"></i> Tables</a></li>
-			<li><a href="<?= base_url();?>members/menus"><i class="fa fa-table"></i> Menus</a></li>
+			<li><a href="<?= base_url();?>members/menus"><i class="fa fa-table"></i> Menus</a></li>			
+			<!--
+			<li><a href="<?= base_url();?>members/bills"><i class="fa fa-file"></i> Bills</a></li>
             <li><a href="forms.html"><i class="fa fa-edit"></i> Forms</a></li>
             <li><a href="typography.html"><i class="fa fa-font"></i> Typography</a></li>
             <li><a href="bootstrap-elements.html"><i class="fa fa-desktop"></i> Bootstrap Elements</a></li>
@@ -49,12 +51,13 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-caret-square-o-down"></i> Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Dropdown Item</a></li>
+			<li><a href="<?= base_url();?>members/menus"><i class="fa fa-table"></i> Menus</a></li>
                 <li><a href="#">Another Item</a></li>
                 <li><a href="#">Third Item</a></li>
                 <li><a href="#">Last Item</a></li>
               </ul>
             </li>
-			
+			-->
           </ul>
 		  
 

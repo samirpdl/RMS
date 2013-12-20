@@ -41,6 +41,7 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 define('TBL_LOGIN', 'tbl_users');
 define('TBL_TABLES','tbl_tables');
 define('TBL_MENUS', 'tbl_menu');
+define('TBL_BILLS', 'tbl_bills');
 
 
 define('TABLE_STATUS_UNAVAILABLE', 0);
