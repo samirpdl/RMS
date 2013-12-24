@@ -15,6 +15,8 @@
     <link href="<?= base_url();?>static/css/sb-admin.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url();?>static/font-awesome/css/font-awesome.min.css">
     <!-- Page Specific CSS -->
+
+    <script src="<?= base_url();?>static/js/jquery-1.10.2.js"></script>
   </head>
 
   <body>
@@ -40,7 +42,6 @@
             <li><a href="<?= base_url();?>members/home"><i class="fa fa-dashboard"></i> Dashboard</a></li>
             <li><a href="<?= base_url();?>members/tables"><i class="fa fa-table"></i> Tables</a></li>
 			<li><a href="<?= base_url();?>members/menus"><i class="fa fa-table"></i> Menus</a></li>			
-			<!--
 			<li><a href="<?= base_url();?>members/bills"><i class="fa fa-file"></i> Bills</a></li>
             <li><a href="forms.html"><i class="fa fa-edit"></i> Forms</a></li>
             <li><a href="typography.html"><i class="fa fa-font"></i> Typography</a></li>
@@ -57,7 +58,6 @@
                 <li><a href="#">Last Item</a></li>
               </ul>
             </li>
-			-->
           </ul>
 		  
 
@@ -132,7 +132,7 @@
     </div><!-- /#wrapper -->
 
     <!-- JavaScript -->
-    <script src="<?= base_url();?>static/js/jquery-1.10.2.js"></script>
+    
     <script src="<?= base_url();?>static/js/bootstrap.js"></script>
 
     <!-- Page Specific Plugins -->

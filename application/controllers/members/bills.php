@@ -27,9 +27,11 @@ class bills extends CI_Controller {
             return;
         }
         
-        
+        $this->load->model('bills_model');
+        $this->load->model('menus_model');
+        $this->load->model('tables_model');
         $this->load->model('Login_model');
-		
+
 		$checkSession=$this->Login_model->checkLogin(array('username'=>$this->username, 'userid'=>$this->userid, 'type'=>$this->usertype));
 		if($checkSession!=TRUE)
 		{
@@ -44,10 +46,26 @@ class bills extends CI_Controller {
 	
 	function index()
 	{
-		$data['bills']="";
+		$data['bills']=$this->bills_model->getBills("1");
 		$this->template->load('templates/in','members/bills/listbills', $data);
 	}
 	
+
+	function add()
+	{
+		$this->showAddForm();
+		return;
+	}
+
+	private function showAddForm($post=null)
+	{
+		$data=array();
+		$data['post']=$post;
+		$data['tables']=$this->tables_model->getTabels("1");
+		$data['menus']=$this->menus_model->getMenus("1");
+		$this->template->load('templates/in', 'members/bills/add', $data);
+		return;
+	}
 	
 	
 	

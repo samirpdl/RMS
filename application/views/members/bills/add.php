@@ -9,7 +9,7 @@
 		  }?>
             <ol class="breadcrumb">
               <li><a href="<?= base_url();?>members/home"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-			  <li><a href="<?= base_url();?>members/tables"><i class="fa fa-desktop"></i> Tables</a></li>
+			  <li><a href="<?= base_url();?>members/bills"><i class="fa fa-file"></i> Bills</a></li>
 			  <?php
 			if(isset($post['edit']))
 			{
@@ -48,29 +48,32 @@
 					<tbody>
 						
 						<tr>
-							<td style="width:20%">Table Name</td>
+							<td style="width:20%">Bill Type</td>
+							<td><label for="bill_type_new"><input type="radio" name="bill_type" id="bill_type_new" value="new">New</label>
+								<label for="bill_type_existing"><input type="radio" name="bill_type" id="bill_type_existing" value="existing">Existing</label>
+							</td>
+						</tr>
+
+						<tr style="display:none" id="bill_existing">
+							<td>Bill ID</td>
+							<td>Bill ID Goes Here</td>
+						</tr>
+
+
+						<tr style="display:none" id="bill_new">
+							<td>Table Name</td>
 							<td><input type="text" required="required" class="form-control" value="<?= (isset($post['table_name'])) ? $post['table_name'] : '';?>" name="table_name"></td>
 						</tr>
 						
 						<tr>
-							<td>Table Capacity</td>
+							<td>Menu</td>
 							<td><input type="text" required="required" class="form-control" value="<?= (isset($post['table_capacity'])) ? $post['table_capacity'] : '';?>" name="table_capacity"></td>
 						</tr>
 						
 						<tr>
-							<td>Table Status</td>
+							<td>Quantity</td>
 							<td>
-								<select name="table_status" required="required" class="form-control">
-								
-									<option value="<?= TABLE_STATUS_FREE ?>" <?= (isset($post['table_status']) && ($post['table_status']==TABLE_STATUS_FREE)) ? 'selected="Selected"' : '';?>>Free</option>
-									
-									<option value="<?= TABLE_STATUS_UNAVAILABLE ?>" <?= (isset($post['table_status']) && ($post['table_status']==TABLE_STATUS_UNAVAILABLE)) ? 'selected="Selected"' : '';?>>Unavailable</option>
-									
-									<option value="<?= TABLE_STATUS_OCCUPIED ?>" <?= (isset($post['table_status']) && ($post['table_status']==TABLE_STATUS_OCCUPIED)) ? 'selected="Selected"' : '';?>>Occupied</option>
-									
-									<option value="<?= TABLE_STATUS_RESERVED ?>" <?= (isset($post['table_status']) && ($post['table_status']==TABLE_STATUS_RESERVED)) ? 'selected="Selected"' : '';?>>Reserved</option>
-									
-								</select>
+								<input type="text" name="quantity" required="required" class="form-control" value="<?= (isset($post['quantity'])) ? $post['quantity'] : '';?>" />
 								
 							</td>
 						</tr>
@@ -91,3 +94,19 @@
 			 
 			 </div>
 </div>
+
+<script type="text/javascript">
+$("#bill_type_existing").click(function()
+{
+	$("#bill_new").hide(1000);
+	$("#bill_existing").show(1000);
+});
+
+
+$("#bill_type_new").click(function()
+{
+	$("#bill_existing").hide(1000);
+	$("#bill_new").show(1000);
+});
+
+</script>

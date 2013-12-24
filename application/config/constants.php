@@ -42,6 +42,7 @@ define('TBL_LOGIN', 'tbl_users');
 define('TBL_TABLES','tbl_tables');
 define('TBL_MENUS', 'tbl_menu');
 define('TBL_BILLS', 'tbl_bills');
+define('TBL_ORDERS', 'tbl_order');
 
 
 define('TABLE_STATUS_UNAVAILABLE', 0);
