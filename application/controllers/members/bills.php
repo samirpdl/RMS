@@ -56,13 +56,58 @@ class bills extends CI_Controller {
 		$this->showAddForm();
 		return;
 	}
+	
+	function post()
+	{
+		$post=array();
+		$post['bill_type']=$this->db->escape_str($this->input->post('bill_type'));
+		$post['table_name']=$this->db->escape_str($this->input->post('table_name'));
+		$post['menu']=$this->db->escape_str($this->input->post('menu'));
+		$post['quantity']=$this->db->escape_str($this->input->post('quantity'));
+		
+		
+		//------------------------- Form Validation ------------------------------
+		$this->form_validation->set_rules('bill_type', 'Bill Type', 'required|numeric');
+		
+		
+		/**
+		* 
+		* Checking for the bill type and defining function for individual checkup
+		* 
+		*/
+		if($post['bill_type']==BILL_TYPE_NEW)
+		{
+			$this->form_validation->set_rules('table_name', 'Table Name', 'required|numeric');
+		}elseif($post['bill_type']==BILL_TYPE_EXISTING)
+		{
+			$this->form_validation->set_rules('bill_id', 'Bill ID', 'required|numeric');
+		}
+		
+		//-- end Condition
+		
+		$this->form_validation->set_rules('menu', 'Menu', 'required|numeric');
+		$this->form_validation->set_rules('quantity', 'Quantity', 'required|numeric');
+		
+		
+		if($this->form_validation->run()==FALSE)
+		{
+			$this->showAddForm($post);
+			return;
+		}
+		
+		/**
+		* 	If Bill Type is New	 
+		*/
+		
+		
+	}
 
 	private function showAddForm($post=null)
 	{
 		$data=array();
 		$data['post']=$post;
-		$data['tables']=$this->tables_model->getTabels("1");
-		$data['menus']=$this->menus_model->getMenus("1");
+		$data['tables']=$this->tables_model->getTabels("status=".TABLE_STATUS_FREE);
+		$data['menus']=$this->menus_model->getMenus("status=".STATUS_ACTIVE);
 		$this->template->load('templates/in', 'members/bills/add', $data);
 		return;
 	}

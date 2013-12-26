@@ -11,6 +11,10 @@
 			</treenode>
 			<treenode node="BASEPATH;PHP:PHP Word;D:\WebProjects\rms\index.php;f9;169;17;169;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="BILL_TYPE_EXISTING;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;56;26;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="BILL_TYPE_NEW;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;55;21;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="CI_CORE;PHP:PHP Word;D:\WebProjects\rms\system\core\CodeIgniter.php;f9;43;16;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="CI_VERSION;PHP:PHP Word;D:\WebProjects\rms\system\core\CodeIgniter.php;f9;35;19;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -47,15 +51,19 @@
 			</treenode>
 			<treenode node="SELF;PHP:PHP Word;D:\WebProjects\rms\index.php;f9;162;13;162;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="STATUS_ACTIVE;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;52;21;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="STATUS_INACTIVE;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;53;23;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="SYSDIR;PHP:PHP Word;D:\WebProjects\rms\index.php;f9;175;15;175;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="TABLE_STATUS_FREE;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;47;25;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="TABLE_STATUS_FREE;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;48;25;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="TABLE_STATUS_OCCUPIED;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;48;29;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="TABLE_STATUS_OCCUPIED;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;49;29;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="TABLE_STATUS_RESERVED;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;49;29;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="TABLE_STATUS_RESERVED;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;50;29;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="TABLE_STATUS_UNAVAILABLE;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;46;32;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="TABLE_STATUS_UNAVAILABLE;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;47;32;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="TBL_BILLS;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;43;17;43;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -63,26 +71,60 @@
 			</treenode>
 			<treenode node="TBL_MENUS;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;42;17;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="TBL_ORDERS;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;44;18;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="TBL_TABLES;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;41;18;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="bills;PHP:Class Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f0;9;1;53;;;;vpos;;vCI_Controller;;c;;r;;d34,9;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f4;16;5;41;;;;vpos;;v;;r;;d27,16;;b0,0;;m">
-					<treenode node="checkSession;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;32;15;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="bills;PHP:Class Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f0;9;1;53;;D:\WebProjects\rms\application\controllers\members\bills.php;f0;9;1;116;;;;vpos;;vCI_Controller;;c;;r;;d34,9;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f4;16;5;41;;D:\WebProjects\rms\application\controllers\members\bills.php;f4;16;5;43;;D:\WebProjects\rms\application\controllers\members\bills.php;f4;16;5;43;;;;vpos;;v;;r;;d27,16;;b0,0;;m">
+					<treenode node="checkSession;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;32;15;32;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;34;15;34;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;34;15;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f8;19;13;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="index;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f1;44;2;48;;;;vpos;;v;;r;;d1,45;;b0,0;;m">
-					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;46;7;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;47;7;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\bills.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\bills.php;f8;19;13;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="userid;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;12;19;12;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="add;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;53;2;57;;;;vpos;;v;;r;;d1,54;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;55;7;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="username;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;11;21;11;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="index;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f1;44;2;48;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;46;2;50;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;46;2;50;;;;vpos;;v;;r;;d1,47;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;46;7;46;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;48;7;48;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;48;7;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;47;7;47;;D:\WebProjects\rms\application\controllers\members\bills.php;f17;48;22;48;;D:\WebProjects\rms\application\controllers\members\bills.php;f17;48;22;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="usertype;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;13;21;13;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="post;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;59;2;102;;;;vpos;;v;;r;;d1,60;;b0,0;;m">
+					<treenode node="post;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;61;7;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f21;62;26;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="showAddForm;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f9;104;2;112;;;;vpos;;v;;r;;d1,105;;b3,0;;mpost;;p">
+					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;106;7;106;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="post;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f30;104;35;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f18;108;23;108;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="userid;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;12;19;12;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;12;19;12;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;12;19;12;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="username;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;11;21;11;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;11;21;11;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;11;21;11;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="usertype;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;13;21;13;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Bills_model;PHP:Class Name;D:\WebProjects\rms\application\models\Codelobster0.php;f0;8;1;20;;D:\WebProjects\rms\application\models\bills_model.php;f0;8;1;38;;;;vpos;;vCI_Model;;c;;r;;d35,8;;b0,0;;m">
+				<treenode node="getBills;PHP:Function Name;D:\WebProjects\rms\application\models\Codelobster0.php;f1;11;2;16;;D:\WebProjects\rms\application\models\bills_model.php;f1;11;2;34;;;;vpos;;v;;r;;d1,12;;b0,0;;mwhere_cond;;pis_object;;pis_limit;;plimit;;p">
+					<treenode node="is_limit;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f50;11;59;11;;D:\WebProjects\rms\application\models\bills_model.php;f50;11;59;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="is_object;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f32;11;42;11;;D:\WebProjects\rms\application\models\bills_model.php;f32;11;42;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="limit;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f67;11;73;11;;D:\WebProjects\rms\application\models\bills_model.php;f67;11;73;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f2;13;6;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="where_cond;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f19;11;30;11;;D:\WebProjects\rms\application\models\bills_model.php;f19;11;30;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
 			</treenode>
 			<treenode node="CI_Benchmark;PHP:Class Name;D:\WebProjects\rms\system\core\Benchmark.php;f0;29;1;112;;;;vpos;;v;;r;;d19,29;;b0,0;;m">
@@ -7122,21 +7164,21 @@
 				</treenode>
 			</treenode>
 			<treenode node="home;PHP:Class Name;D:\WebProjects\rms\application\controllers\members\home.php;f0;9;1;49;;;;vpos;;vCI_Controller;;c;;r;;d33,9;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\home.php;f4;16;5;41;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f4;16;5;41;;;;vpos;;v;;r;;d27,16;;b0,0;;m">
-					<treenode node="checkSession;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f2;32;15;32;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;32;15;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\home.php;f4;16;5;41;;;;vpos;;v;;r;;d27,16;;b0,0;;m">
+					<treenode node="checkSession;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f2;32;15;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f8;19;13;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f8;19;13;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="index;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\home.php;f1;44;2;47;;;;vpos;;v;;r;;d1,45;;b0,0;;m">
 					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f2;46;7;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="userid;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f12;12;19;12;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;12;19;12;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="userid;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f12;12;19;12;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
-				<treenode node="username;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f12;11;21;11;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;11;21;11;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="username;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f12;11;21;11;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
-				<treenode node="usertype;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;13;21;13;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="usertype;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\home.php;f12;13;21;13;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="Login;PHP:Class Name;D:\WebProjects\rms\application\controllers\login.php;f0;2;1;63;;;;vpos;;vCI_Controller;;c;;r;;d34,2;;b0,0;;m">
@@ -7223,21 +7265,21 @@
 				<treenode node="usertype;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\menus.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\menus.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\menus.php;f12;13;21;13;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Menus_model;PHP:Class Name;D:\WebProjects\rms\application\models\Codelobster0.php;f0;8;1;30;;D:\WebProjects\rms\application\models\menus_model.php;f0;8;1;30;;;;vpos;;vCI_Model;;c;;r;;d35,8;;b0,0;;m">
-				<treenode node="getMenus;PHP:Function Name;D:\WebProjects\rms\application\models\Codelobster0.php;f1;11;2;27;;D:\WebProjects\rms\application\models\menus_model.php;f1;11;2;27;;D:\WebProjects\rms\application\models\menus_model.php;f1;11;2;27;;;;vpos;;v;;r;;d1,12;;b0,0;;mwhere_cond;;pis_object;;pis_limit;;plimit;;p">
-					<treenode node="is_limit;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f53;11;62;11;;D:\WebProjects\rms\application\models\menus_model.php;f53;11;62;11;;D:\WebProjects\rms\application\models\menus_model.php;f53;11;62;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Menus_model;PHP:Class Name;D:\WebProjects\rms\application\models\menus_model.php;f0;8;1;30;;;;vpos;;vCI_Model;;c;;r;;d35,8;;b0,0;;m">
+				<treenode node="getMenus;PHP:Function Name;D:\WebProjects\rms\application\models\menus_model.php;f1;11;2;27;;;;vpos;;v;;r;;d1,12;;b0,0;;mwhere_cond;;pis_object;;pis_limit;;plimit;;p">
+					<treenode node="is_limit;PHP:Var Name;D:\WebProjects\rms\application\models\menus_model.php;f53;11;62;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="is_object;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f36;11;46;11;;D:\WebProjects\rms\application\models\menus_model.php;f36;11;46;11;;D:\WebProjects\rms\application\models\menus_model.php;f36;11;46;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="is_object;PHP:Var Name;D:\WebProjects\rms\application\models\menus_model.php;f36;11;46;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="limit;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f70;11;76;11;;D:\WebProjects\rms\application\models\menus_model.php;f70;11;76;11;;D:\WebProjects\rms\application\models\menus_model.php;f70;11;76;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="limit;PHP:Var Name;D:\WebProjects\rms\application\models\menus_model.php;f70;11;76;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="query;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f2;19;8;19;;D:\WebProjects\rms\application\models\menus_model.php;f2;19;8;19;;D:\WebProjects\rms\application\models\menus_model.php;f2;19;8;19;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="query;PHP:Var Name;D:\WebProjects\rms\application\models\menus_model.php;f2;19;8;19;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="sql;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f2;13;6;13;;D:\WebProjects\rms\application\models\menus_model.php;f2;13;6;13;;D:\WebProjects\rms\application\models\menus_model.php;f2;13;6;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="sql;PHP:Var Name;D:\WebProjects\rms\application\models\menus_model.php;f2;13;6;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f9;19;14;19;;D:\WebProjects\rms\application\models\menus_model.php;f9;19;14;19;;D:\WebProjects\rms\application\models\menus_model.php;f9;19;14;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\models\menus_model.php;f9;19;14;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="where_cond;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f19;11;30;11;;D:\WebProjects\rms\application\models\menus_model.php;f19;11;30;11;;D:\WebProjects\rms\application\models\menus_model.php;f19;11;30;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="where_cond;PHP:Var Name;D:\WebProjects\rms\application\models\menus_model.php;f19;11;30;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -8439,7 +8481,7 @@
 			</treenode>
 			<treenode node="config;PHP:Var Name;D:\WebProjects\rms\application\config\migration.php;f0;10;7;10;;D:\WebProjects\rms\application\config\config.php;f0;16;7;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="contents;PHP:Var Name;D:\WebProjects\rms\application\views\templates\template-out.php;f12;11;21;11;;D:\WebProjects\rms\application\views\templates\in.php;f7;126;16;126;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="contents;PHP:Var Name;D:\WebProjects\rms\application\views\templates\template-out.php;f12;11;21;11;;D:\WebProjects\rms\application\views\templates\in.php;f7;127;16;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="count;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f6;38;12;38;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f6;52;12;52;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f6;53;12;53;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f6;53;12;53;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f6;53;12;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8461,7 +8503,7 @@
 			</treenode>
 			<treenode node="line;PHP:Var Name;D:\WebProjects\rms\application\errors\error_php.php;f27;7;32;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="menus;PHP:Var Name;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f14;46;20;46;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f14;46;20;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="menus;PHP:Var Name;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f14;46;20;46;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f14;46;20;46;;D:\WebProjects\rms\application\views\members\bills\add.php;f16;86;22;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="message;PHP:Var Name;D:\WebProjects\rms\application\errors\error_php.php;f24;5;32;5;;D:\WebProjects\rms\application\errors\error_general.php;f13;58;21;58;;D:\WebProjects\rms\application\errors\error_db.php;f13;58;21;58;;D:\WebProjects\rms\application\errors\error_404.php;f13;58;21;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8483,7 +8525,7 @@
 			</treenode>
 			<treenode node="routing;PHP:Var Name;D:\WebProjects\rms\system\core\CodeIgniter.php;f11;175;19;175;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="row;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f25;39;29;39;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f25;53;29;53;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f24;54;28;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="row;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f25;39;29;39;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f25;53;29;53;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\bills\add.php;f27;68;31;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="RTR;PHP:Var Name;D:\WebProjects\rms\system\core\CodeIgniter.php;f1;171;5;171;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8497,7 +8539,7 @@
 			</treenode>
 			<treenode node="system_path;PHP:Var Name;D:\WebProjects\rms\index.php;f1;58;13;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="tables;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f14;31;21;31;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f14;45;21;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="tables;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f14;31;21;31;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f14;45;21;45;;D:\WebProjects\rms\application\views\members\bills\add.php;f16;68;23;68;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="UNI;PHP:Var Name;D:\WebProjects\rms\system\core\CodeIgniter.php;f1;157;5;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -15616,18 +15658,19 @@
 		<file name="D:\WebProjects\rms\nbproject\autocomplete\__ci_auto_complete__.php" crc="2001873034"/>
 		<file name="D:\WebProjects\rms\nbproject\project.xml" crc="-2141488868"/>
 		<file name="D:\WebProjects\rms\application\views\templates\template-out.php" crc="1804118841"/>
-		<file name="D:\WebProjects\rms\application\views\templates\in.php" crc="1416722420"/>
+		<file name="D:\WebProjects\rms\application\views\templates\in.php" crc="-671067539"/>
 		<file name="D:\WebProjects\rms\application\views\members\tables\listtables.php" crc="-662489082"/>
 		<file name="D:\WebProjects\rms\application\views\members\tables\add.php" crc="-902071999"/>
 		<file name="D:\WebProjects\rms\application\views\members\menus\listmenus.php" crc="-1410671073"/>
 		<file name="D:\WebProjects\rms\application\views\members\menus\add.php" crc="-912084234"/>
 		<file name="D:\WebProjects\rms\application\views\members\dashboard\dashboard.php" crc="1785986620"/>
 		<file name="D:\WebProjects\rms\application\views\members\bills\listbills.php" crc="1261929094"/>
-		<file name="D:\WebProjects\rms\application\views\members\bills\add.php" crc="-902071999"/>
+		<file name="D:\WebProjects\rms\application\views\members\bills\add.php" crc="1138653003"/>
 		<file name="D:\WebProjects\rms\application\views\login.php" crc="-356640935"/>
 		<file name="D:\WebProjects\rms\application\models\tables_model.php" crc="-1521996765"/>
 		<file name="D:\WebProjects\rms\application\models\menus_model.php" crc="-156939340"/>
 		<file name="D:\WebProjects\rms\application\models\login_model.php" crc="15496731"/>
+		<file name="D:\WebProjects\rms\application\models\bills_model.php" crc="-797708764"/>
 		<file name="D:\WebProjects\rms\application\libraries\Template.php" crc="1109143200"/>
 		<file name="D:\WebProjects\rms\application\errors\error_php.php" crc="1872552885"/>
 		<file name="D:\WebProjects\rms\application\errors\error_general.php" crc="-408254174"/>
@@ -15636,7 +15679,7 @@
 		<file name="D:\WebProjects\rms\application\controllers\members\tables.php" crc="-1179373179"/>
 		<file name="D:\WebProjects\rms\application\controllers\members\menus.php" crc="156707931"/>
 		<file name="D:\WebProjects\rms\application\controllers\members\home.php" crc="-2042884176"/>
-		<file name="D:\WebProjects\rms\application\controllers\members\bills.php" crc="-135645247"/>
+		<file name="D:\WebProjects\rms\application\controllers\members\bills.php" crc="-201900718"/>
 		<file name="D:\WebProjects\rms\application\controllers\login.php" crc="-1289318734"/>
 		<file name="D:\WebProjects\rms\application\config\user_agents.php" crc="-484381080"/>
 		<file name="D:\WebProjects\rms\application\config\smileys.php" crc="-749249654"/>
@@ -15648,7 +15691,7 @@
 		<file name="D:\WebProjects\rms\application\config\foreign_chars.php" crc="-1365329089"/>
 		<file name="D:\WebProjects\rms\application\config\doctypes.php" crc="796808004"/>
 		<file name="D:\WebProjects\rms\application\config\database.php" crc="-427292169"/>
-		<file name="D:\WebProjects\rms\application\config\constants.php" crc="202911673"/>
+		<file name="D:\WebProjects\rms\application\config\constants.php" crc="-1080782202"/>
 		<file name="D:\WebProjects\rms\application\config\config.php" crc="262562710"/>
 		<file name="D:\WebProjects\rms\application\config\autoload.php" crc="1673867677"/>
 		<file name="D:\WebProjects\rms\application\cache\.htaccess" crc="1792548129"/>

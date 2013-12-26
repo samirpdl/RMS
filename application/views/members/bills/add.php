@@ -35,7 +35,7 @@
 			 }
 			 ?>
 			 
-			 	<form action="<?= base_url();?>members/tables/post" method="POST">
+			 	<form action="<?= base_url();?>members/bills/post" method="POST">
 				<?php
 				if(isset($post['edit']))
 				{
@@ -49,8 +49,8 @@
 						
 						<tr>
 							<td style="width:20%">Bill Type</td>
-							<td><label for="bill_type_new"><input type="radio" name="bill_type" id="bill_type_new" value="new">New</label>
-								<label for="bill_type_existing"><input type="radio" name="bill_type" id="bill_type_existing" value="existing">Existing</label>
+							<td><label for="bill_type_new"><input required="required" type="radio" name="bill_type" id="bill_type_new" value="1">New</label>
+								<label for="bill_type_existing"><input type="radio" required="required" name="bill_type" id="bill_type_existing" value="2">Existing</label>
 							</td>
 						</tr>
 
@@ -62,12 +62,38 @@
 
 						<tr style="display:none" id="bill_new">
 							<td>Table Name</td>
-							<td><input type="text" required="required" class="form-control" value="<?= (isset($post['table_name'])) ? $post['table_name'] : '';?>" name="table_name"></td>
+							<td>
+							<select name="table_name" class="form-control">
+								
+								<?php
+								foreach($tables as $row):
+								?>
+								<option value="<?= $row->id;?>"><?= $row->table_name;?></option>
+								<?php
+								endforeach;
+								?>
+							
+							
+							</select>
+							</td>
 						</tr>
 						
 						<tr>
-							<td>Menu</td>
-							<td><input type="text" required="required" class="form-control" value="<?= (isset($post['table_capacity'])) ? $post['table_capacity'] : '';?>" name="table_capacity"></td>
+							<td style="width: 20%">Menu</td>
+							<td>
+								<select name="menu" class="form-control">
+								
+								<?php
+								foreach($menus as $row):
+								?>
+								<option value="<?= $row->id;?>"><?= $row->name;?></option>
+								<?php
+								endforeach;
+								?>
+							
+							
+							</select>
+							</td>
 						</tr>
 						
 						<tr>
@@ -98,15 +124,15 @@
 <script type="text/javascript">
 $("#bill_type_existing").click(function()
 {
-	$("#bill_new").hide(1000);
-	$("#bill_existing").show(1000);
+	$("#bill_new").hide();
+	$("#bill_existing").show();
 });
 
 
 $("#bill_type_new").click(function()
 {
-	$("#bill_existing").hide(1000);
-	$("#bill_new").show(1000);
+	$("#bill_existing").hide();
+	$("#bill_new").show();
 });
 
 </script>

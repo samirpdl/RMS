@@ -50,6 +50,12 @@ define('TABLE_STATUS_FREE', 1);
 define('TABLE_STATUS_OCCUPIED', 2);
 define('TABLE_STATUS_RESERVED', 3);
 
+define('STATUS_ACTIVE', 1);
+define('STATUS_INACTIVE', 0);
+
+define('BILL_TYPE_NEW',1);
+define('BILL_TYPE_EXISTING',2);
+
 
 
 /* End of file constants.php */
