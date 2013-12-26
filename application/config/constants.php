@@ -43,6 +43,7 @@ define('TBL_TABLES','tbl_tables');
 define('TBL_MENUS', 'tbl_menu');
 define('TBL_BILLS', 'tbl_bills');
 define('TBL_ORDERS', 'tbl_order');
+define('TBL_USERINFO', 'tbl_userinformation');
 
 
 define('TABLE_STATUS_UNAVAILABLE', 0);
@@ -52,9 +53,13 @@ define('TABLE_STATUS_RESERVED', 3);
 
 define('STATUS_ACTIVE', 1);
 define('STATUS_INACTIVE', 0);
+define('STATUS_PAID',2);
 
 define('BILL_TYPE_NEW',1);
 define('BILL_TYPE_EXISTING',2);
+
+
+define('MONEY_SYMBOL', 'Rs.');
 
 
 

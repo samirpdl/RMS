@@ -57,23 +57,17 @@
                       <tr>
 					  	<td><?= $count;?></td>
 						<td><?= $row->id;?></td>
-                        <td><?= $row->capacity;?></td>
+                        <td><?= $row->table_name;?></td>
                         <td><?php
 						
 						$status=$row->status;
 						
 						switch($status):
-							case TABLE_STATUS_UNAVAILABLE:
-								echo "Unavailable";
+							case STATUS_INACTIVE:
+								echo "Un Paid";
 								break;
-							case TABLE_STATUS_FREE:
-								echo "Free";
-								break;
-							case TABLE_STATUS_OCCUPIED:
-								echo "Occupied";
-								break;
-							case TABLE_STATUS_RESERVED:
-								echo "Reserved";
+							case STATUS_PAID:
+								echo "Paid";
 								break;
 							default:
 								echo "";
@@ -81,8 +75,10 @@
 						endswitch;
 						
 						?></td>
+						<td><?= $row->total_amt;?>
+							</td>
                         <td>
-						<a href="<?= base_url();?>members/tables/edit/<?= $row->id;?>" class="fa fa-edit"></a></td>
+						<a href="<?= base_url();?>members/bills/view/<?= $row->id;?>" class="fa fa-eye" title="View"></a></td>
                       </tr>
                       <?php
 					  	$count++;

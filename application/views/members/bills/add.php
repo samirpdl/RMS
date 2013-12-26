@@ -56,7 +56,20 @@
 
 						<tr style="display:none" id="bill_existing">
 							<td>Bill ID</td>
-							<td>Bill ID Goes Here</td>
+							<td>
+								<select name="bill_id" class="form-control">
+								
+								<?php
+								foreach($bills as $row):
+								?>
+								<option value="<?= $row->id;?>">Bill #<?= $row->id;?></option>
+								<?php
+								endforeach;
+								?>
+							
+							
+							</select>
+							</td>
 						</tr>
 
 

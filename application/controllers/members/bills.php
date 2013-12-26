@@ -62,8 +62,9 @@ class bills extends CI_Controller {
 		$post=array();
 		$post['bill_type']=$this->db->escape_str($this->input->post('bill_type'));
 		$post['table_name']=$this->db->escape_str($this->input->post('table_name'));
-		$post['menu']=$this->db->escape_str($this->input->post('menu'));
+		$post['menu_id']=$this->db->escape_str($this->input->post('menu'));
 		$post['quantity']=$this->db->escape_str($this->input->post('quantity'));
+		$post['bill_id']=$this->db->escape_str($this->input->post('bill_id'));
 		
 		
 		//------------------------- Form Validation ------------------------------
@@ -98,8 +99,103 @@ class bills extends CI_Controller {
 		/**
 		* 	If Bill Type is New	 
 		*/
+
+		//-- Starting Transaction 
+		$this->db->trans_start();
+
+
+		if($post['bill_type']==BILL_TYPE_NEW)
+		{
+			
+			//--- Inserting to bills table
+			$new_insert=array();
+			$new_insert['total_amt']=0;
+			$new_insert['datetime']=date('Y-m-d H:i:s');
+			$new_insert['created_by']=$this->userid;
+			$new_insert['tbl_tables_id']=$post['table_name'];
+
+
+			$this->db->insert(TBL_BILLS, $new_insert);
+
+			$bill_id=$this->db->insert_id();
+
+			$this->db->update(TBL_TABLES, array('status'=>TABLE_STATUS_OCCUPIED), array('id'=>$post['table_name']));
+
+
+		}else{
+			$bill_id=$post['bill_id'];
+		}
+
+		$insert_into_orders=array();
+		$insert_into_orders['timedate']=date('Y-m-d H:i:s');
+		$insert_into_orders['status']=STATUS_ACTIVE;
+		$insert_into_orders['quantity']=$post['quantity'];
+		$insert_into_orders['tbl_menu_id']=$post['menu_id'];
+		$insert_into_orders['tbl_bills_id']=$bill_id;
+
+		$this->db->insert(TBL_ORDERS, $insert_into_orders);
+
+
+		//---- Updating Total Amount
+		$menusModel = new menus_model;
+
+		$getMenuItem=$menusModel->getMenus("id=".$post['menu_id'], TRUE);
+
+		$menu_price=$getMenuItem->price;
+		$amount=($menu_price*$post['quantity']);
+		
+
+		$this->bills_model->updateTotalAmount($bill_id, $amount);
+		//$this->db->update(TBL_BILLS, array('total_amt'=>$menu_price), array('id'=>$bill_id));
+		
+		//--------------------
+
+
+		$this->db->trans_complete();
+
+		//--- Ending Transaction
+
+		//-- If transaction is false
+
+		if($this->db->trans_status()==false)
+		{
+			redirect(base_url().'members/bills/?err=Sorry+We+failed !');
+			return;
+		}
+
+		redirect(base_url().'members/bills/?msg='.urlencode("Your Order is added Successfully "));
+		return;
 		
 		
+	}
+
+
+	function view()
+	{
+		$bill_id=trim($this->uri->segment(4));
+		if((!$bill_id) || (!is_numeric($bill_id)))
+		{
+			show_error("Sorry You Tempted the URL");
+			return;
+		}
+
+
+		$getBillDetails=$this->bills_model->getBills("b.id=$bill_id", TRUE);
+		if(count($getBillDetails)<1)
+		{
+			show_404();
+			return;
+		}
+
+		$getOrderDetails=$this->bills_model->getOrders("tbl_bills_id=$bill_id");
+
+		$data=array();
+		$data['orders']=$getOrderDetails;
+		$data['billdetails']=$getBillDetails;
+
+		$this->template->load('templates/in', 'members/bills/view', $data);
+		return;
+
 	}
 
 	private function showAddForm($post=null)
@@ -108,9 +204,12 @@ class bills extends CI_Controller {
 		$data['post']=$post;
 		$data['tables']=$this->tables_model->getTabels("status=".TABLE_STATUS_FREE);
 		$data['menus']=$this->menus_model->getMenus("status=".STATUS_ACTIVE);
+		$data['bills']=$this->bills_model->getBills("b.status!=".STATUS_PAID);
 		$this->template->load('templates/in', 'members/bills/add', $data);
 		return;
 	}
+
+
 	
 	
 	
