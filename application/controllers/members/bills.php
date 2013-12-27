@@ -197,6 +197,57 @@ class bills extends CI_Controller {
 		return;
 
 	}
+	
+	function dorder()
+	{
+		$order_id=trim($this->uri->segment(4));
+		
+		if((!$order_id) || (!is_numeric($order_id)))
+		{
+			show_404();
+			return;
+		}
+		
+		$getOrderDetails=$this->bills_model->getOrders("o.id=$order_id", TRUE);
+		
+		if(count($getOrderDetails)<1)
+		{
+			show_404();
+			return;
+		}
+		
+		$bill_id=$getOrderDetails->tbl_bills_id;
+		
+		$getBillDetails=$this->bills_model->getBills("b.id=$bill_id AND b.status=".STATUS_PAID, TRUE);
+		if(count($getBillDetails)>0)
+		{
+			show_error("Sorry but the bill is already paid hence cannot be modified !");
+			return;
+		}
+		
+		$order_amount=($getOrderDetails->price*$getOrderDetails->quantity);
+		
+		$this->db->trans_start();
+		
+		$this->bills_model->updateTotalAmount($bill_id, "-$order_amount");
+		
+		$this->db->delete(TBL_ORDERS, array('id'=>$order_id));
+		
+		$this->db->trans_complete();
+		
+		
+		if($this->db->trans_status()==false)
+		{
+			redirect(base_url().'members/bills/view/'.$bill_id.'?err=Sorry+We+failed !');
+			return;
+		}
+
+		redirect(base_url().'members/bills/view/'.$bill_id.'?msg='.urlencode("Your Order is deleted Successfully "));
+		return;
+		
+		
+			
+	}
 
 	private function showAddForm($post=null)
 	{
