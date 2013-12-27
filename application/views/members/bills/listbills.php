@@ -48,7 +48,7 @@
 					{
 						echo '
 						<tr>
-							<th colspan="4">Sorry ! You donot have any tables yet ! Please create one !</th>
+							<th colspan="6">Sorry ! You donot have any bills yet ! Please create one !</th>
 						</tr>';
 					}else{
 						$count=1;
@@ -78,7 +78,9 @@
 						<td><?= $row->total_amt;?>
 							</td>
                         <td>
-						<a href="<?= base_url();?>members/bills/view/<?= $row->id;?>" class="fa fa-eye" title="View"></a></td>
+						<a href="<?= base_url();?>members/bills/view/<?= $row->id;?>" class="fa fa-eye" title="View"></a>
+						<a href="<?= base_url();?>members/bills/changestatus/<?= $row->id;?>" class="">Paid</a>
+					</td>
                       </tr>
                       <?php
 					  	$count++;

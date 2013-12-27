@@ -57,6 +57,12 @@
 						<tr style="display:none" id="bill_existing">
 							<td>Bill ID</td>
 							<td>
+								<?php
+								if(count($bills)<1)
+								{
+									echo "Sorry! You don't have any existing bills !";
+								}else{
+									?>
 								<select name="bill_id" class="form-control">
 								
 								<?php
@@ -69,6 +75,9 @@
 							
 							
 							</select>
+							<?php
+								}
+								?>
 							</td>
 						</tr>
 
@@ -76,6 +85,13 @@
 						<tr style="display:none" id="bill_new">
 							<td>Table Name</td>
 							<td>
+
+								<?php
+								if(count($tables)<1)
+								{
+									echo "Sorry! You don't have any free tables !";
+								}else{
+									?>
 							<select name="table_name" class="form-control">
 								
 								<?php
@@ -88,6 +104,9 @@
 							
 							
 							</select>
+							<?php
+							}
+							?>
 							</td>
 						</tr>
 						

@@ -46,7 +46,7 @@ class bills extends CI_Controller {
 	
 	function index()
 	{
-		$data['bills']=$this->bills_model->getBills("1");
+		$data['bills']=$this->bills_model->getBills("b.status!=".STATUS_PAID);
 		$this->template->load('templates/in','members/bills/listbills', $data);
 	}
 	
@@ -247,6 +247,37 @@ class bills extends CI_Controller {
 		
 		
 			
+	}
+
+	function changestatus()
+	{
+		$bill_id=trim($this->uri->segment(4));
+
+		if((!$bill_id) || (!is_numeric($bill_id)))
+		{
+			show_404();
+			return;
+		}
+
+
+		$checkBill=$this->bills_model->getBills("b.id=$bill_id AND b.STATUS!=".STATUS_PAID, TRUE);
+		if(count($checkBill)<1)
+		{
+			show_error("Sorry But either the bill is already paid or invalid !");
+			return;
+		}
+
+		$this->db->trans_start();
+		
+		$this->db->update(TBL_BILLS, array('status'=>STATUS_PAID), array('id'=>$bill_id));
+		$this->db->update(TBL_TABLES, array('status'=>TABLE_STATUS_FREE), array('id'=>$checkBill->tbl_tables_id));
+
+		$this->db->trans_complete();
+
+
+		redirect(base_url().'members/bills/?msg='.urlencode("The Bill has been paid thank you !"));
+		return;
+
 	}
 
 	private function showAddForm($post=null)
