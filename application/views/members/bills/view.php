@@ -77,8 +77,15 @@
                         <th>Price <i class="fa fa-sort"></i></th>
                         <th>Quantity <i class="fa fa-sort"></i></th>
 						<th>Amount <i class="fa fa-sort"></i></th>
+						<?php
+						if($status!=STATUS_PAID)
+						{
+						?>	
                         <th>Action </th>
-                      </tr>
+                      	<?php
+						}
+						?>
+					  </tr>
                     </thead>
                     <tbody>
                     	<?php
@@ -92,7 +99,14 @@
                     		<td><?= $row->price;?></td>
                     		<td><?= $row->quantity;?></td>
                     		<td><?= (($row->price)*($row->quantity))?></td>
+							<?php
+							if($status!=STATUS_PAID)
+							{
+							?>	
                     		<td><a href="<?= base_url();?>members/bills/dorder/<?= $row->id;?>">Delete</a></td>
+							<?php
+							}
+							?>
                     	</tr>
                     	<?php
                     	$sn++;
@@ -104,19 +118,3 @@
 			 
 			 </div>
 </div>
-
-<script type="text/javascript">
-$("#bill_type_existing").click(function()
-{
-	$("#bill_new").hide();
-	$("#bill_existing").show();
-});
-
-
-$("#bill_type_new").click(function()
-{
-	$("#bill_existing").hide();
-	$("#bill_new").show();
-});
-
-</script>

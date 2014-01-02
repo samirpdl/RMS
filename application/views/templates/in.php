@@ -43,8 +43,7 @@
             <li><a href="<?= base_url();?>members/tables"><i class="fa fa-table"></i> Tables</a></li>
 			<li><a href="<?= base_url();?>members/menus"><i class="fa fa-table"></i> Menus</a></li>			
 			<li><a href="<?= base_url();?>members/bills"><i class="fa fa-file"></i> Bills</a></li>
-            
-            </li>
+            <li><a href="<?= base_url();?>members/reports"><i class="fa fa-file"></i> Reports</a></li>
           </ul>
 		  
 

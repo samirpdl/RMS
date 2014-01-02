@@ -2,7 +2,7 @@
 <project name="D:\WebProjects\rms\Resturant Management System - Rajesh.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost/rms/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/rms/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";D:\WebProjects\rms\application\controllers\members\folder0;"/><added value=""/><errors version="4.5">
 		<errfile name="D:\WebProjects\rms\application\views\templates\in.php">
-			<error val="57;24;75;24;2002;1;"/>
+			<error val="57;26;75;26;2002;1;"/>
 		</errfile>
 	</errors>
 	<codestructure version="4.6.1">
@@ -81,85 +81,93 @@
 			</treenode>
 			<treenode node="TBL_USERINFO;PHP:PHP Word;D:\WebProjects\rms\application\config\constants.php;f8;45;20;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="bills;PHP:Class Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f0;9;1;53;;D:\WebProjects\rms\application\controllers\members\bills.php;f0;9;1;266;;;;vpos;;vCI_Controller;;c;;r;;d34,9;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f4;16;5;41;;D:\WebProjects\rms\application\controllers\members\bills.php;f4;16;5;43;;D:\WebProjects\rms\application\controllers\members\bills.php;f4;16;5;43;;D:\WebProjects\rms\application\controllers\members\bills.php;f4;16;5;43;;;;vpos;;v;;r;;d27,16;;b0,0;;m">
-					<treenode node="checkSession;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;32;15;32;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;34;15;34;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;34;15;34;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;34;15;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="bills;PHP:Class Name;D:\WebProjects\rms\application\controllers\members\bills.php;f0;10;1;304;;;;vpos;;vCI_Controller;;c;;r;;d0,12;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;18;2;46;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;18;2;46;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;18;2;46;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;18;2;46;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f1;18;2;46;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f1;19;2;47;;;;vpos;;v;;r;;d1,20;;b0,0;;m">
+					<treenode node="checkSession;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;37;15;37;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;37;15;37;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;37;15;37;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;37;15;37;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;37;15;37;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;38;15;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\bills.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\bills.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\bills.php;f8;19;13;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="add;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;53;2;57;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;53;2;57;;;;vpos;;v;;r;;d1,54;;b0,0;;m">
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;55;7;55;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;55;7;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;22;7;22;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;22;7;22;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;22;7;22;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;22;7;22;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;22;7;22;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;23;7;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="dorder;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;200;2;249;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;200;2;249;;;;vpos;;v;;r;;d1,201;;b0,0;;m">
-					<treenode node="bill_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;218;10;218;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;218;10;218;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="getBillDetails;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;220;17;220;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;220;17;220;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="getOrderDetails;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;210;18;210;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;210;18;210;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="order_amount;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;227;15;227;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;227;15;227;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="order_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;202;11;202;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;202;11;202;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f17;202;22;202;;D:\WebProjects\rms\application\controllers\members\bills.php;f17;202;22;202;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="add;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;56;2;60;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;56;2;60;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;56;2;60;;;;vpos;;v;;r;;d1,57;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;58;7;58;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;58;7;58;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;58;7;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="index;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f1;44;2;48;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;46;2;50;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;46;2;50;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;46;2;50;;;;vpos;;v;;r;;d1,47;;b0,0;;m">
-					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;46;7;46;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;48;7;48;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;48;7;48;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;48;7;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="changestatus;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;257;2;286;;;;vpos;;v;;r;;d1,258;;b0,0;;m">
+					<treenode node="bill_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;259;10;259;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;47;7;47;;D:\WebProjects\rms\application\controllers\members\bills.php;f17;48;22;48;;D:\WebProjects\rms\application\controllers\members\bills.php;f17;48;22;48;;D:\WebProjects\rms\application\controllers\members\bills.php;f17;48;22;48;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="checkBill;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;268;12;268;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-				</treenode>
-				<treenode node="post;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;59;2;169;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;59;2;169;;;;vpos;;v;;r;;d1,60;;b0,0;;m">
-					<treenode node="amount;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;144;9;144;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;144;9;144;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="bill_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f3;119;11;119;;D:\WebProjects\rms\application\controllers\members\bills.php;f3;119;11;119;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="getMenuItem;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;141;14;141;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;141;14;141;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="insert_into_orders;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;128;21;128;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;128;21;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="menu_price;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;143;13;143;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;143;13;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="menusModel;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;139;13;139;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;139;13;139;;;;vposmenus_model;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="new_insert;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f3;110;14;110;;D:\WebProjects\rms\application\controllers\members\bills.php;f3;110;14;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="post;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;61;7;61;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;61;7;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f21;62;26;62;;D:\WebProjects\rms\application\controllers\members\bills.php;f21;62;26;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f18;259;23;259;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="showAddForm;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f9;251;2;260;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;251;2;260;;;;vpos;;v;;r;;d1,252;;b3,0;;mpost;;p">
-					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;253;7;253;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;253;7;253;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="dorder;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;206;2;255;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;206;2;255;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;206;2;255;;;;vpos;;v;;r;;d1,207;;b0,0;;m">
+					<treenode node="bill_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;224;10;224;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;224;10;224;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;224;10;224;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="post;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f30;251;35;251;;D:\WebProjects\rms\application\controllers\members\bills.php;f30;251;35;251;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="getBillDetails;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;226;17;226;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;226;17;226;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;226;17;226;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f18;255;23;255;;D:\WebProjects\rms\application\controllers\members\bills.php;f18;255;23;255;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="getOrderDetails;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;216;18;216;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;216;18;216;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;216;18;216;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-				</treenode>
-				<treenode node="view;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;172;2;198;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;172;2;198;;;;vpos;;v;;r;;d1,173;;b0,0;;m">
-					<treenode node="bill_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;174;10;174;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;174;10;174;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="order_amount;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;233;15;233;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;233;15;233;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;233;15;233;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;191;7;191;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;191;7;191;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="order_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;208;11;208;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;208;11;208;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;208;11;208;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="getBillDetails;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;182;17;182;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;182;17;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="getOrderDetails;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;189;18;189;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;189;18;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f16;174;21;174;;D:\WebProjects\rms\application\controllers\members\bills.php;f16;174;21;174;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f19;208;24;208;;D:\WebProjects\rms\application\controllers\members\bills.php;f19;208;24;208;;D:\WebProjects\rms\application\controllers\members\bills.php;f19;208;24;208;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="userid;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;12;19;12;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;12;19;12;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;12;19;12;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;12;19;12;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="index;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;49;2;53;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;49;2;53;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;49;2;53;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;49;2;53;;;;vpos;;v;;r;;d1,50;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;46;7;46;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;51;7;51;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;51;7;51;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;51;7;51;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;51;7;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;47;7;47;;D:\WebProjects\rms\application\controllers\members\bills.php;f19;51;24;51;;D:\WebProjects\rms\application\controllers\members\bills.php;f19;51;24;51;;D:\WebProjects\rms\application\controllers\members\bills.php;f19;51;24;51;;D:\WebProjects\rms\application\controllers\members\bills.php;f19;51;24;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="username;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;11;21;11;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;11;21;11;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;11;21;11;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;11;21;11;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="post;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;62;2;175;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;62;2;175;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;62;2;175;;;;vpos;;v;;r;;d1,63;;b0,0;;m">
+					<treenode node="amount;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;150;9;150;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;150;9;150;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;150;9;150;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="bill_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f3;123;11;123;;D:\WebProjects\rms\application\controllers\members\bills.php;f3;123;11;123;;D:\WebProjects\rms\application\controllers\members\bills.php;f3;123;11;123;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="getMenuItem;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;147;14;147;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;147;14;147;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;147;14;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="insert_into_orders;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;134;21;134;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;134;21;134;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;134;21;134;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="menu_price;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;149;13;149;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;149;13;149;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;149;13;149;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="menusModel;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;145;13;145;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;145;13;145;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;145;13;145;;;;vposmenus_model;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="new_insert;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f3;114;14;114;;D:\WebProjects\rms\application\controllers\members\bills.php;f3;114;14;114;;D:\WebProjects\rms\application\controllers\members\bills.php;f3;114;14;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="post;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;64;7;64;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;64;7;64;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;64;7;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f23;65;28;65;;D:\WebProjects\rms\application\controllers\members\bills.php;f23;65;28;65;;D:\WebProjects\rms\application\controllers\members\bills.php;f23;65;28;65;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
 				</treenode>
-				<treenode node="usertype;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;13;21;13;;D:\WebProjects\rms\application\controllers\members\bills.php;f12;13;21;13;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				<treenode node="showAddForm;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;289;2;298;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;289;2;298;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;289;2;298;;;;vpos;;v;;r;;d1,290;;b3,0;;mpost;;p">
+					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;291;7;291;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;291;7;291;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;291;7;291;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="post;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f22;289;27;289;;D:\WebProjects\rms\application\controllers\members\bills.php;f22;289;27;289;;D:\WebProjects\rms\application\controllers\members\bills.php;f22;289;27;289;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f20;293;25;293;;D:\WebProjects\rms\application\controllers\members\bills.php;f20;293;25;293;;D:\WebProjects\rms\application\controllers\members\bills.php;f20;293;25;293;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="view;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\bills.php;f1;178;2;204;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;178;2;204;;D:\WebProjects\rms\application\controllers\members\bills.php;f1;178;2;204;;;;vpos;;v;;r;;d1,179;;b0,0;;m">
+					<treenode node="bill_id;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;180;10;180;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;180;10;180;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;180;10;180;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;197;7;197;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;197;7;197;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;197;7;197;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="getBillDetails;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;188;17;188;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;188;17;188;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;188;17;188;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="getOrderDetails;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f2;195;18;195;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;195;18;195;;D:\WebProjects\rms\application\controllers\members\bills.php;f2;195;18;195;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f18;180;23;180;;D:\WebProjects\rms\application\controllers\members\bills.php;f18;180;23;180;;D:\WebProjects\rms\application\controllers\members\bills.php;f18;180;23;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="userid;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f9;14;16;14;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;14;16;14;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;14;16;14;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;14;16;14;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;14;16;14;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;15;16;15;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="username;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f9;13;18;13;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;13;18;13;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;13;18;13;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;13;18;13;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;13;18;13;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;14;18;14;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="usertype;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\bills.php;f9;15;18;15;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;15;18;15;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;15;18;15;;D:\WebProjects\rms\application\controllers\members\bills.php;f9;15;18;15;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;15;18;15;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;16;18;16;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Bills_model;PHP:Class Name;D:\WebProjects\rms\application\models\Codelobster0.php;f0;8;1;20;;D:\WebProjects\rms\application\models\bills_model.php;f0;8;1;65;;;;vpos;;vCI_Model;;c;;r;;d35,8;;b0,0;;m">
+			<treenode node="Bills_model;PHP:Class Name;D:\WebProjects\rms\application\models\bills_model.php;f0;8;1;65;;;;vpos;;vCI_Model;;c;;r;;d35,8;;b0,0;;m">
 				<treenode node="getBills;PHP:Function Name;D:\WebProjects\rms\application\models\Codelobster0.php;f1;11;2;16;;D:\WebProjects\rms\application\models\bills_model.php;f1;11;2;38;;;;vpos;;v;;r;;d1,12;;b0,0;;mwhere_cond;;pis_object;;pis_limit;;plimit;;p">
 					<treenode node="is_limit;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f50;11;59;11;;D:\WebProjects\rms\application\models\bills_model.php;f50;11;59;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
@@ -167,13 +175,23 @@
 					</treenode>
 					<treenode node="limit;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f67;11;73;11;;D:\WebProjects\rms\application\models\bills_model.php;f67;11;73;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="sql;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f2;13;6;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="query;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f2;29;8;29;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f2;13;6;13;;D:\WebProjects\rms\application\models\bills_model.php;f2;13;6;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f9;29;14;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="where_cond;PHP:Var Name;D:\WebProjects\rms\application\models\Codelobster0.php;f19;11;30;11;;D:\WebProjects\rms\application\models\bills_model.php;f19;11;30;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="getOrders;PHP:Function Name;D:\WebProjects\rms\application\models\bills_model.php;f1;40;2;54;;;;vpos;;v;;r;;d1,41;;b0,0;;mwhere_cond;;pis_object;;p">
 					<treenode node="is_object;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f33;40;43;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="query;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f2;46;8;46;;;;vposCI_DB_result;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f2;42;6;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f9;46;14;46;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="where_cond;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f20;40;31;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
@@ -182,6 +200,10 @@
 					<treenode node="amount;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f38;56;45;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 					<treenode node="bill_id;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f28;56;36;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="sql;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f2;58;6;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\models\bills_model.php;f9;60;14;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -7329,6 +7351,34 @@
 					</treenode>
 				</treenode>
 			</treenode>
+			<treenode node="reports;PHP:Class Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f0;11;1;70;;;;vpos;;vCI_Controller;;c;;r;;d0,12;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f1;19;2;47;;;;vpos;;v;;r;;d1,20;;b0,0;;m">
+					<treenode node="checkSession;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;38;15;38;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;23;7;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="index;PHP:Function Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f1;49;2;67;;;;vpos;;v;;r;;d1,50;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f3;58;8;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="date_end;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f3;57;12;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="date_start;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f3;56;14;56;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="search;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f2;51;9;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f10;51;15;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="userid;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;15;16;15;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="username;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;14;18;14;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+				<treenode node="usertype;PHP:Var Name;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f9;16;18;16;;;;vpos;;v;;r;;d-1,-1;;b3,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Reports_model;PHP:Class Name;D:\WebProjects\rms\application\models\Codelobster0.php;f0;12;1;16;;;;vpos;;vCI_Model;;c;;r;;d0,13;;b0,0;;m">
+			</treenode>
 			<treenode node="tables;PHP:Class Name;Codelobster4.php;f0;9;1;60;;D:\WebProjects\rms\application\controllers\members\tables.php;f0;9;1;157;;;;vpos;;vCI_Controller;;c;;r;;d35,9;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;Codelobster4.php;f4;16;5;33;;D:\WebProjects\rms\application\controllers\members\tables.php;f4;16;5;33;;D:\WebProjects\rms\application\controllers\members\tables.php;f4;16;5;33;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f4;16;5;33;;;;vpos;;v;;r;;d27,16;;b0,0;;m">
 					<treenode node="this;PHP:Var Name;Codelobster4.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\tables.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\tables.php;f8;19;13;19;;D:\WebProjects\rms\application\controllers\members\Codelobster0.php;f8;19;13;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -8501,7 +8551,7 @@
 			</treenode>
 			<treenode node="_doctypes;PHP:Var Name;D:\WebProjects\rms\application\config\doctypes.php;f0;2;10;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_GET;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listtables.php;f13;13;18;13;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f13;13;18;13;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f13;13;18;13;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f13;13;18;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_GET;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listtables.php;f13;13;18;13;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f13;13;18;13;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f13;13;18;13;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f13;31;18;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="active_group;PHP:Var Name;D:\WebProjects\rms\application\config\database.php;f0;47;13;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8513,7 +8563,9 @@
 			</treenode>
 			<treenode node="autoload;PHP:Var Name;D:\WebProjects\rms\application\config\autoload.php;f0;39;9;39;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="bills;PHP:Var Name;D:\WebProjects\rms\application\views\members\bills\listbills.php;f14;46;20;46;;D:\WebProjects\rms\application\views\members\bills\add.php;f16;62;22;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="billdetails;PHP:Var Name;D:\WebProjects\rms\application\views\members\bills\view.php;f26;2;38;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="bills;PHP:Var Name;D:\WebProjects\rms\application\views\members\bills\add.php;f17;60;23;60;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f14;107;20;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="BM;PHP:Var Name;D:\WebProjects\rms\system\core\CodeIgniter.php;f1;114;4;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8527,9 +8579,9 @@
 			</treenode>
 			<treenode node="config;PHP:Var Name;D:\WebProjects\rms\application\config\migration.php;f0;10;7;10;;D:\WebProjects\rms\application\config\config.php;f0;16;7;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="contents;PHP:Var Name;D:\WebProjects\rms\application\views\templates\template-out.php;f12;11;21;11;;D:\WebProjects\rms\application\views\templates\in.php;f7;114;16;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="contents;PHP:Var Name;D:\WebProjects\rms\application\views\templates\template-out.php;f12;11;21;11;;D:\WebProjects\rms\application\views\templates\in.php;f7;113;16;113;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="count;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f6;38;12;38;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f6;52;12;52;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f6;53;12;53;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f6;53;12;53;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f6;53;12;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="count;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f6;38;12;38;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f6;52;12;52;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f6;53;12;53;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f6;53;12;53;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f6;114;12;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="db;PHP:Var Name;D:\WebProjects\rms\application\config\database.php;f0;50;3;50;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8549,7 +8601,7 @@
 			</treenode>
 			<treenode node="line;PHP:Var Name;D:\WebProjects\rms\application\errors\error_php.php;f27;7;32;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="menus;PHP:Var Name;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f14;46;20;46;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f14;46;20;46;;D:\WebProjects\rms\application\views\members\bills\add.php;f16;99;22;99;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="menus;PHP:Var Name;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f14;46;20;46;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f14;46;20;46;;D:\WebProjects\rms\application\views\members\bills\add.php;f16;118;22;118;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="message;PHP:Var Name;D:\WebProjects\rms\application\errors\error_php.php;f24;5;32;5;;D:\WebProjects\rms\application\errors\error_general.php;f13;58;21;58;;D:\WebProjects\rms\application\errors\error_db.php;f13;58;21;58;;D:\WebProjects\rms\application\errors\error_404.php;f13;58;21;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8559,11 +8611,15 @@
 			</treenode>
 			<treenode node="mobiles;PHP:Var Name;D:\WebProjects\rms\application\config\user_agents.php;f0;74;8;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="orders;PHP:Var Name;D:\WebProjects\rms\application\views\members\bills\view.php;f29;92;36;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="OUT;PHP:Var Name;D:\WebProjects\rms\system\core\CodeIgniter.php;f1;185;5;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="platforms;PHP:Var Name;D:\WebProjects\rms\application\config\user_agents.php;f0;12;10;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="post;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\Codelobster0.php;f13;3;18;3;;D:\WebProjects\rms\application\views\members\tables\add.php;f13;3;18;3;;D:\WebProjects\rms\application\views\members\menus\add.php;f13;3;18;3;;D:\WebProjects\rms\application\views\members\bills\add.php;f13;3;18;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="reports;PHP:Var Name;D:\WebProjects\rms\application\views\members\bills\listbills.php;f13;3;21;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="robots;PHP:Var Name;D:\WebProjects\rms\application\config\user_agents.php;f0;165;7;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8571,7 +8627,7 @@
 			</treenode>
 			<treenode node="routing;PHP:Var Name;D:\WebProjects\rms\system\core\CodeIgniter.php;f11;175;19;175;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="row;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f25;39;29;39;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f25;53;29;53;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\bills\add.php;f26;62;30;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="row;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f25;39;29;39;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f25;53;29;53;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f24;54;28;54;;D:\WebProjects\rms\application\views\members\bills\add.php;f26;68;30;68;;D:\WebProjects\rms\application\views\members\bills\view.php;f40;92;44;92;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f24;115;28;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="RTR;PHP:Var Name;D:\WebProjects\rms\system\core\CodeIgniter.php;f1;171;5;171;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8581,11 +8637,13 @@
 			</treenode>
 			<treenode node="smileys;PHP:Var Name;D:\WebProjects\rms\application\config\smileys.php;f0;14;8;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="status;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f6;48;13;48;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f6;61;13;61;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f6;63;13;63;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f6;63;13;63;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f6;62;13;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="sn;PHP:Var Name;D:\WebProjects\rms\application\views\members\bills\view.php;f21;91;24;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="status;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f6;48;13;48;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f6;61;13;61;;D:\WebProjects\rms\application\views\members\menus\Codelobster0.php;f6;63;13;63;;D:\WebProjects\rms\application\views\members\menus\listmenus.php;f6;63;13;63;;D:\WebProjects\rms\application\views\members\bills\view.php;f6;44;13;44;;D:\WebProjects\rms\application\views\members\bills\listbills.php;f6;131;13;131;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="system_path;PHP:Var Name;D:\WebProjects\rms\index.php;f1;58;13;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="tables;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f14;31;21;31;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f14;45;21;45;;D:\WebProjects\rms\application\views\members\bills\add.php;f16;81;23;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="tables;PHP:Var Name;D:\WebProjects\rms\application\views\members\tables\listables.php;f14;31;21;31;;D:\WebProjects\rms\application\views\members\tables\listtables.php;f14;45;21;45;;D:\WebProjects\rms\application\views\members\bills\add.php;f17;89;24;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="UNI;PHP:Var Name;D:\WebProjects\rms\system\core\CodeIgniter.php;f1;157;5;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -8595,6 +8653,276 @@
 			</treenode>
 		</phptree>
 		<jstree>
+			<treenode node=".fn.datepicker.defaults;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;346;2;350;;;;vpos;;v;;r;;d28,346;;b0,0;;m">
+				<treenode node="onRender;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;347;3;349;;;;vpos;;v;;r;;d27,347;;b0,0;;mdate;;p">
+					<treenode node="date;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f21;347;25;347;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="Datepicker;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f5;23;2;85;;;;vpos;;vDatepicker.prototype;;c;;r;;d44,23;;b0,0;;melement;;poptions;;p">
+				<treenode node="click;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f8;29;13;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="component;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;33;16;33;;;;vposDatepicker;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f16;25;24;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="element;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f27;23;34;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="format;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;25;13;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="isInput;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;32;14;32;;;;vposDatepicker;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="minViewMode;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;49;18;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="onRender;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;80;15;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="options;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f36;23;43;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="picker;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;26;13;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="startViewMode;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;77;20;77;;;;vposDatepicker;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="viewMode;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;63;15;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="weekEnd;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;79;14;79;;;;vposDatepicker;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="weekStart;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;78;16;78;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="Datepicker.prototype;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f1;87;2;332;;;;vpos;;v;;r;;d24,87;;b0,0;;m">
+				<treenode node="click;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;253;3;319;;;;vpos;;v;;r;;d21,253;;b0,0;;me;;p">
+					<treenode node="day;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f11;298;14;298;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f28;266;36;266;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="e;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f18;253;19;253;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="month;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f11;278;16;278;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="target;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;256;13;256;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="year;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f11;281;15;281;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="fill;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;187;3;251;;;;vpos;;v;;r;;d19,187;;b0,0;;m">
+					<treenode node="clsName;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;202;14;202;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="currentDate;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;191;15;191;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="currentYear;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;227;18;227;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="d;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;188;8;188;;;;vposDate;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="day;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;195;7;195;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f12;193;20;193;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="html;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;201;11;201;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f12;246;13;246;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="month;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;190;9;190;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="months;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;229;13;229;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="nextMonth;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;198;16;198;;;;vposDate;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="prevM;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;204;9;204;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="prevMonth;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;194;16;194;;;;vposDate;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="prevY;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;203;9;203;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="year;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;189;8;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="yearCont;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;240;15;240;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="fillDow;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;168;3;176;;;;vpos;;v;;r;;d21,168;;b0,0;;m">
+					<treenode node="dowCnt;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;169;13;169;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f31;172;39;172;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="html;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;170;11;170;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="fillMonths;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;178;3;185;;;;vpos;;v;;r;;d24,178;;b0,0;;m">
+					<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f35;182;43;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="html;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;179;11;179;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;180;8;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="hide;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;113;3;126;;;;vpos;;v;;r;;d18,113;;b0,0;;m">
+					<treenode node="document;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f6;119;14;119;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="window;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f5;115;11;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="mousedown;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;321;3;324;;;;vpos;;v;;r;;d24,321;;b0,0;;me;;p">
+					<treenode node="e;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f22;321;23;321;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="place;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;151;3;157;;;;vpos;;v;;r;;d19,151;;b0,0;;m">
+					<treenode node="offset;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;152;13;152;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="setValue;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;140;3;149;;;;vpos;;v;;r;;d30,140;;b0,0;;mnewDate;;p">
+					<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f16;142;24;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="newDate;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f21;140;28;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="show;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;90;3;111;;;;vpos;;v;;r;;d20,90;;b0,0;;me;;p">
+					<treenode node="document;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f5;102;13;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="e;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f17;90;18;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ev;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f40;102;42;102;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="that;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;101;11;101;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="window;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f5;94;11;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="showMode;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;326;3;331;;;;vpos;;v;;r;;d26,326;;b0,0;;mdir;;p">
+					<treenode node="dir;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f21;326;24;326;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f57;330;65;330;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="update;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;159;3;166;;;;vpos;;v;;r;;d27,159;;b0,0;;mnewDate;;p">
+					<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f15;160;23;160;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="newDate;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f19;159;26;159;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="component;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f39;92;48;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="date;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f9;142;13;142;;;;vposDate;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="Datepicker;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f15;88;25;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f18;129;26;129;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="element;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f70;92;77;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="formated;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;129;15;129;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="height;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f8;92;14;92;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="hide;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f38;119;42;119;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="isInput;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f13;99;20;99;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="minViewMode;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f34;328;45;328;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="picker;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f8;91;14;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="place;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f39;94;44;94;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="viewDate;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f8;147;16;147;;;;vposDate;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="viewMode;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f8;116;16;116;;;;vposDatepicker.prototype;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="weekEnd;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f36;221;43;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="weekStart;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f24;171;33;171;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="DPGlobal;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f5;353;2;451;;;;vpos;;v;;r;;d16,353;;b0,0;;m">
+				<treenode node="dates;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;370;3;376;;;;vpos;;v;;r;;d8,370;;b0,0;;m">
+					<treenode node="days;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f3;371;7;371;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="daysMin;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f3;373;10;373;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="daysShort;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f3;372;12;372;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="months;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f3;374;9;374;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="monthsShort;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f3;375;14;375;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="parseFormat;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;383;3;390;;;;vpos;;v;;r;;d31,383;;b0,0;;mformat;;p">
+					<treenode node="format;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f24;383;30;383;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="parts;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;385;9;385;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="separator;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;384;16;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="formatDate;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;428;3;442;;;;vpos;;v;;r;;d36,428;;b0,0;;mdate;;pformat;;p">
+					<treenode node="val;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;429;4;434;;;;vpos;;v;;r;;d13,429;;b0,0;;m">
+						<treenode node="d;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;430;5;430;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+						</treenode>
+						<treenode node="date;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;430;11;430;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+						</treenode>
+						<treenode node="m;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;431;5;431;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+						</treenode>
+						<treenode node="yy;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;432;6;432;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+						</treenode>
+						<treenode node="yyyy;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;433;8;433;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+						</treenode>
+					</treenode>
+					<treenode node="cnt;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f17;438;20;438;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="date;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f23;428;27;428;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="format;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f29;428;35;428;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f12;438;13;438;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;429;10;429;;;;vposval;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="getDaysInMonth;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;380;3;382;;;;vpos;;v;;r;;d41,380;;b0,0;;myear;;pmonth;;p">
+					<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f16;381;24;381;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="month;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f34;380;39;380;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="year;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f28;380;32;380;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="isLeapYear;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;377;3;379;;;;vpos;;v;;r;;d30,377;;b0,0;;myear;;p">
+					<treenode node="year;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f24;377;28;377;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="parseDate;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;391;3;427;;;;vpos;;v;;r;;d36,391;;b0,0;;mdate;;pformat;;p">
+					<treenode node="cnt;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f18;401;21;401;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="date;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f22;391;26;391;;;;vposDate;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="day;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f35;400;38;400;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="format;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f28;391;34;391;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f13;401;14;401;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="month;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f57;400;62;400;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="parts;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f7;392;12;392;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="val;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;394;7;394;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="year;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f8;400;12;400;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="clsName;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;356;11;356;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="contTemplate;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;450;14;450;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="dates;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;370;7;370;;;;vposdates;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="headTemplate;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;443;14;443;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="modes;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f2;354;7;354;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="navFnc;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;357;10;357;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="navStep;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;358;11;358;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
 			<treenode node="Affix;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap.js;f6;1901;3;1912;;;;vpos;;v;;r;;d42,1901;;b0,0;;melement;;poptions;;p">
 				<treenode node="Affix;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap.js;f32;1902;37;1902;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
@@ -8719,6 +9047,16 @@
 				<treenode node="element;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap.js;f12;563;19;563;;D:\WebProjects\rms\static\js\bootstrap.js;f12;603;19;603;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 				<treenode node="transitioning;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap.js;f11;567;24;567;;D:\WebProjects\rms\static\js\bootstrap.js;f11;602;24;602;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="datepicker;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f6;334;2;344;;;;vpos;;v;;r;;d44,334;;b0,0;;moption;;pval;;p">
+				<treenode node="data;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;337;8;337;;;;vposDatepicker;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="option;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f30;334;36;334;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="options;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f4;338;11;338;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="val;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f38;334;41;334;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				</treenode>
 			</treenode>
 			<treenode node="Dropdown;JS:Function Name;D:\WebProjects\rms\static\js\bootstrap.js;f6;701;3;703;;;;vpos;;v;;r;;d36,701;;b0,0;;melement;;p">
@@ -15027,6 +15365,10 @@
 			</treenode>
 			<treenode node="checked;JS:JS Var Name;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f19856;3;19863;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="checkin;JS:JS Var Name;D:\WebProjects\rms\application\views\members\bills\listbills.php;f4;182;11;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="checkout;JS:JS Var Name;D:\WebProjects\rms\application\views\members\bills\listbills.php;f4;197;12;197;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="CHILD;JS:JS Var Name;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f8909;3;8914;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="children;JS:JS Var Name;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f20972;4;20980;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -15117,6 +15459,8 @@
 			</treenode>
 			<treenode node="data;JS:JS Var Name;D:\WebProjects\rms\js\bootstrap.js;f8;137;12;137;;D:\WebProjects\rms\static\js\flot\chart-data-flot.js;f5;40;9;40;;D:\WebProjects\rms\static\js\bootstrap.js;f8;204;12;204;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="Datepicker;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f1;87;11;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="deeppink;JS:JS Var Name;D:\WebProjects\rms\static\js\flot\excanvas.min.js;f3533;0;3541;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="deepskyblue;JS:JS Var Name;D:\WebProjects\rms\static\js\flot\excanvas.min.js;f3552;0;3563;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -15164,6 +15508,8 @@
 			<treenode node="dodgerblue;JS:JS Var Name;D:\WebProjects\rms\static\js\flot\excanvas.min.js;f3610;0;3620;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="DOMException;JS:JS Var Name;D:\WebProjects\rms\static\js\flot\excanvas.min.js;f19395;0;19407;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="DPGlobal;JS:JS Var Name;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f5;353;13;353;;;;vposDPGlobal;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="Dropdown;JS:JS Var Name;D:\WebProjects\rms\js\bootstrap.js;f2;458;10;458;;D:\WebProjects\rms\static\js\bootstrap.js;f2;705;10;705;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -15522,6 +15868,10 @@
 			<treenode node="noBubble;JS:JS Var Name;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f16036;4;16044;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="not;JS:JS Var Name;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f18863;3;18866;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="now;JS:JS Var Name;D:\WebProjects\rms\application\views\members\bills\listbills.php;f4;180;7;180;;;;vposDate;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="nowTemp;JS:JS Var Name;D:\WebProjects\rms\application\views\members\bills\listbills.php;f8;179;15;179;;;;vposDate;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="nr;JS:JS Var Name;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f18915;5;18917;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -15891,7 +16241,7 @@
 			</treenode>
 			<treenode node="width;JS:JS Var Name;D:\WebProjects\rms\js\bootstrap.js;f8;1026;13;1026;;D:\WebProjects\rms\static\js\bootstrap.js;f8;1273;13;1273;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="window;JS:JS Var Name;D:\WebProjects\rms\js\bootstrap.min.js;f879;10;885;10;;D:\WebProjects\rms\js\bootstrap.js;f2;97;8;97;;D:\WebProjects\rms\static\js\flot\excanvas.min.js;f911;0;917;0;;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f28890;5;28896;5;;D:\WebProjects\rms\static\js\bootstrap.js;f4;485;10;485;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="window;JS:JS Var Name;D:\WebProjects\rms\js\bootstrap.min.js;f879;10;885;10;;D:\WebProjects\rms\js\bootstrap.js;f2;97;8;97;;D:\WebProjects\rms\static\js\flot\excanvas.min.js;f911;0;917;0;;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f28890;5;28896;5;;D:\WebProjects\rms\static\js\bootstrap.js;f4;485;10;485;;D:\WebProjects\rms\static\js\bootstrap-datepicker.js;f3;473;9;473;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="wn;JS:JS Var Name;D:\WebProjects\rms\static\js\jquery-1.10.2.js;f9128;5;9130;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -16130,6 +16480,7 @@
 		<file name="D:\WebProjects\rms\static\js\flot\chart-data-flot.js" crc="-660237562"/>
 		<file name="D:\WebProjects\rms\static\js\jquery-1.10.2.js" crc="1764993274"/>
 		<file name="D:\WebProjects\rms\static\js\bootstrap.js" crc="1402929435"/>
+		<file name="D:\WebProjects\rms\static\js\bootstrap-datepicker.js" crc="-263996589"/>
 		<file name="D:\WebProjects\rms\static\font-awesome\scss\font-awesome.scss" crc="817808621"/>
 		<file name="D:\WebProjects\rms\static\font-awesome\scss\_variables.scss" crc="880131227"/>
 		<file name="D:\WebProjects\rms\static\font-awesome\scss\_stacked.scss" crc="1602501954"/>
@@ -16164,16 +16515,18 @@
 		<file name="D:\WebProjects\rms\nbproject\autocomplete\__ci_auto_complete__.php" crc="2001873034"/>
 		<file name="D:\WebProjects\rms\nbproject\project.xml" crc="-2141488868"/>
 		<file name="D:\WebProjects\rms\application\views\templates\template-out.php" crc="1766923225"/>
-		<file name="D:\WebProjects\rms\application\views\templates\in.php" crc="170274914"/>
+		<file name="D:\WebProjects\rms\application\views\templates\in.php" crc="-2071515909"/>
 		<file name="D:\WebProjects\rms\application\views\members\tables\listtables.php" crc="-662489082"/>
 		<file name="D:\WebProjects\rms\application\views\members\tables\add.php" crc="-902071999"/>
 		<file name="D:\WebProjects\rms\application\views\members\menus\listmenus.php" crc="-1410671073"/>
 		<file name="D:\WebProjects\rms\application\views\members\menus\add.php" crc="-912084234"/>
 		<file name="D:\WebProjects\rms\application\views\members\dashboard\dashboard.php" crc="1785986620"/>
-		<file name="D:\WebProjects\rms\application\views\members\bills\listbills.php" crc="-326290071"/>
-		<file name="D:\WebProjects\rms\application\views\members\bills\add.php" crc="-1199072536"/>
+		<file name="D:\WebProjects\rms\application\views\members\bills\view.php" crc="45615677"/>
+		<file name="D:\WebProjects\rms\application\views\members\bills\listbills.php" crc="-944123527"/>
+		<file name="D:\WebProjects\rms\application\views\members\bills\add.php" crc="-362937716"/>
 		<file name="D:\WebProjects\rms\application\views\login.php" crc="-448429359"/>
 		<file name="D:\WebProjects\rms\application\models\tables_model.php" crc="-1521996765"/>
+		<file name="D:\WebProjects\rms\application\models\reports_model.php" crc="-1248930088"/>
 		<file name="D:\WebProjects\rms\application\models\menus_model.php" crc="-156939340"/>
 		<file name="D:\WebProjects\rms\application\models\login_model.php" crc="1676529144"/>
 		<file name="D:\WebProjects\rms\application\models\bills_model.php" crc="-1174754787"/>
@@ -16183,9 +16536,10 @@
 		<file name="D:\WebProjects\rms\application\errors\error_db.php" crc="781355616"/>
 		<file name="D:\WebProjects\rms\application\errors\error_404.php" crc="689787017"/>
 		<file name="D:\WebProjects\rms\application\controllers\members\tables.php" crc="-1179373179"/>
+		<file name="D:\WebProjects\rms\application\controllers\members\reports.php" crc="-25852804"/>
 		<file name="D:\WebProjects\rms\application\controllers\members\menus.php" crc="156707931"/>
 		<file name="D:\WebProjects\rms\application\controllers\members\home.php" crc="-1193737408"/>
-		<file name="D:\WebProjects\rms\application\controllers\members\bills.php" crc="137844217"/>
+		<file name="D:\WebProjects\rms\application\controllers\members\bills.php" crc="-138994089"/>
 		<file name="D:\WebProjects\rms\application\controllers\login.php" crc="420142775"/>
 		<file name="D:\WebProjects\rms\application\config\user_agents.php" crc="-1872728348"/>
 		<file name="D:\WebProjects\rms\application\config\smileys.php" crc="-1505190161"/>
