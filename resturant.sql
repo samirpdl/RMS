@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 3.5.8.1deb1
+-- version 3.3.9
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 26, 2013 at 02:29 PM
--- Server version: 5.5.34-0ubuntu0.13.04.1
--- PHP Version: 5.4.9-4ubuntu2.4
+-- Generation Time: Jan 03, 2014 at 08:29 AM
+-- Server version: 5.5.8
+-- PHP Version: 5.3.5
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -36,15 +35,17 @@ CREATE TABLE IF NOT EXISTS `tbl_bills` (
   PRIMARY KEY (`id`),
   KEY `fk_tbl_bills_tbl_users1` (`created_by`),
   KEY `fk_tbl_bills_tbl_tables1` (`tbl_tables_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 --
 -- Dumping data for table `tbl_bills`
 --
 
 INSERT INTO `tbl_bills` (`id`, `total_amt`, `datetime`, `created_by`, `tbl_tables_id`, `status`) VALUES
-(2, 808, '2013-12-26 12:13:08', 1, 2, 0),
-(4, 294, '2013-12-26 12:54:49', 1, 3, 0);
+(2, 88, '2013-12-26 12:13:08', 1, 2, 2),
+(4, 44, '2013-12-26 12:54:49', 1, 3, 2),
+(5, 22, '2013-12-26 09:50:03', 1, 2, 2),
+(6, 566, '2013-12-28 14:23:53', 1, 2, 2);
 
 -- --------------------------------------------------------
 
@@ -85,20 +86,19 @@ CREATE TABLE IF NOT EXISTS `tbl_order` (
   PRIMARY KEY (`id`),
   KEY `fk_tbl_order_tbl_menu1` (`tbl_menu_id`),
   KEY `fk_tbl_order_tbl_bills1` (`tbl_bills_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=24 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=27 ;
 
 --
 -- Dumping data for table `tbl_order`
 --
 
 INSERT INTO `tbl_order` (`id`, `timedate`, `status`, `quantity`, `tbl_menu_id`, `tbl_bills_id`) VALUES
-(16, '2013-12-26 12:46:49', 1, 3, 1, 2),
-(17, '2013-12-26 12:46:58', 1, 4, 1, 2),
 (18, '2013-12-26 12:50:47', 1, 4, 1, 2),
 (19, '2013-12-26 12:51:08', 1, 2, 1, 2),
 (21, '2013-12-26 12:54:49', 1, 2, 1, 4),
-(22, '2013-12-26 13:05:39', 1, 1, 2, 4),
-(23, '2013-12-26 14:19:52', 1, 2, 2, 2);
+(24, '2013-12-26 09:50:03', 1, 1, 1, 5),
+(25, '2013-12-28 14:23:53', 1, 2, 2, 6),
+(26, '2013-12-28 14:24:14', 1, 3, 1, 6);
 
 -- --------------------------------------------------------
 
@@ -117,6 +117,11 @@ CREATE TABLE IF NOT EXISTS `tbl_sales` (
   KEY `fk_tbl_sales_tbl_order1` (`tbl_order_id`),
   KEY `fk_tbl_sales_tbl_users1` (`tbl_users_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `tbl_sales`
+--
+
 
 -- --------------------------------------------------------
 
@@ -139,7 +144,7 @@ CREATE TABLE IF NOT EXISTS `tbl_tables` (
 INSERT INTO `tbl_tables` (`id`, `table_name`, `capacity`, `status`) VALUES
 (1, 'Table 1 Edited', 2, 0),
 (2, 'Table 2', 2, 1),
-(3, 'Table No 3', 4, 2);
+(3, 'Table No 3', 4, 1);
 
 -- --------------------------------------------------------
 
@@ -217,7 +222,3 @@ ALTER TABLE `tbl_sales`
 --
 ALTER TABLE `tbl_userinformation`
   ADD CONSTRAINT `fk_tbl_userinformation_tbl_users` FOREIGN KEY (`tbl_users_id`) REFERENCES `tbl_users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

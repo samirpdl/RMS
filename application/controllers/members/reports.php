@@ -52,7 +52,7 @@ class reports extends CI_Controller
 		$search=$this->input->post('search');
 		
 		
-		if(isset($search))
+		if(isset($search) && (!empty($search)))
 		{
 			$date_start= $this->input->post('date_start');
 			$date_end=$this->input->post('date_end');
