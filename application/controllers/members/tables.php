@@ -126,7 +126,7 @@ class tables extends CI_Controller {
 		$insertIntoTables['capacity']=$post['table_capacity'];
 		$insertIntoTables['status']=$post['table_status'];
 		
-		if(isset($post['edit']))
+		if(!empty($post['edit']))
 		{
 			$runQuery=$this->db->update(TBL_TABLES, $insertIntoTables, array('id'=>$post['table_id']));
 			
