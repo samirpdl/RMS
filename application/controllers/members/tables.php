@@ -98,7 +98,7 @@ class tables extends CI_Controller {
 		$post['table_capacity']=$this->input->post('table_capacity');
 		$post['table_status']=$this->input->post('table_status');
 		$post['edit']=$this->input->post('edit');
-		if(isset($post['edit']))
+		if(!empty($post['edit']))
 		{
 			$post['table_id']=$this->input->post('id');
 			$checkTable=$this->Tables_model->getTabels("id=".$post['table_id']."", TRUE);
