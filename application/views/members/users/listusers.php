@@ -1,27 +1,12 @@
 <div class="row">
           <div class="col-lg-12">
-		  <?php
-		  if(isset($reports))
-		  {
-		  	?>
-			<h1>Reports <small>Reports On Your Resturant</small></h1>
+		 
+				<h1>Users <small>Employees of your resturant</small></h1>
             <ol class="breadcrumb">
               <li><a href="<?= base_url();?>members/home"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-			  <li class="active"><i class="fa fa-desktop"></i> Reports</li>
+			  <li class="active"><i class="fa fa-user"></i> Users</li>
             </ol>
 			
-		<?php
-			}else{
-				
-				?>
-				<h1>Bills <small>Bills On Your Resturant</small></h1>
-            <ol class="breadcrumb">
-              <li><a href="<?= base_url();?>members/home"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-			  <li class="active"><i class="fa fa-desktop"></i> Bills</li>
-            </ol>
-			<?php
-			}
-			?>
 		  
           </div>
         </div><!-- /.row -->
@@ -41,46 +26,13 @@
 			 }
 			 
 			 ?>
-			 <?php
-						if(isset($reports))
-						{
-							?>
-			 <div class="panel panel-info">
-			 <div class="panel-heading" style="height:40px">
-                <h3 class="panel-title pull-left"><i class="fa fa-desktop"></i> Date Range</h3>
-				</div>
-			 <form class="form-inline" role="form" style="margin:10px;" action="" method="POST">
-			 <input type="hidden" name="search" value="1">
-				  <div class="form-group">
-				    <label for="dpd1">Starting Date</label>
-				    <input type="text" class="form-control" name="date_start" placeholder="Starting Date" value="<?= date('Y-m-d');?>">
-				  </div>
-				  <div class="form-group">
-				    <label  for="dpd2">Ending Date</label>
-				    <input type="text" class="form-control" name="date_end" placeholder="Ending Date" value="<?= date('Y-m-d');?>">
-				  </div>
-				  
-				  <div class="form-group">
-				  
-				  	<input type="submit" value="Search" class="btn btn-success">
-				  </div>
-			 </form> 
-			 </div>
-			 
-			 <?php
-			 }
-			 ?>
+			
             <div class="panel panel-primary">
               <div class="panel-heading" style="height:50px">
-                <h3 class="panel-title pull-left"><i class="fa fa-desktop"></i> Your Bills</h3>
-				<?php
-				if(!isset($reports))
-				{
-					?>
-				<a href="<?= base_url();?>members/bills/add" class="btn btn-info pull-right">Add Bill</a>
-				<?php
-				}
-				?>
+                <h3 class="panel-title pull-left"><i class="fa fa-users"></i> Your Employees</h3>
+				
+				<a href="<?= site_url('members/users/add')?>" class="btn btn-info pull-right">Add User</a>
+				
               </div>
 			 
               <div class="panel-body">
@@ -91,22 +43,14 @@
 					  	<th>S.N <i class="fa fa-sort"></i></th>
 						<th>Bill ID <i class="fa fa-sort"></i></th>
                         <th>Table Name <i class="fa fa-sort"></i></th>
-						<?php
-						if(isset($reports))
-						{
-							?>
-						<th>Date <i class="fa fa-sort"></i></th>
-						<?php
-						}
-						?>
-                        <th>Status <i class="fa fa-sort"></i></th>
+						<th>Status <i class="fa fa-sort"></i></th>
 						<th>Total Amount <i class="fa fa-sort"></i></th>
                         <th>Action </th>
                       </tr>
                     </thead>
                     <tbody>
 					<?php
-					if(count($bills)<1)
+					if(count($bills)<1 || (!isset($bills)))
 					{
 						echo '
 						<tr>
