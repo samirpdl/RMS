@@ -5,4 +5,4 @@ machine:
     version: 5.5.11
 test:
     override:
-    - phpunit test/unit-tests # use PHPunit for testing
+    - phpunit
