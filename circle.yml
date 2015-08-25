@@ -3,3 +3,6 @@
 machine:
   php:
     version: 5.5.11
+test:
+  override:
+    - php ./test-suite/run.php --unit-tests
