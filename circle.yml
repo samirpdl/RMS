@@ -1,1 +1,5 @@
-language: php
+# The machine section enables you to configure the virtual machine that runs your tests.
+# https://circleci.com/docs/configuration#machine-configuration
+machine:
+  php:
+    version: 5.5.11
